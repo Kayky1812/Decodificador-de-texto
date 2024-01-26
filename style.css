@@ -1,0 +1,128 @@
+/* Reset de margens e preenchimentos para o corpo da página */
+body, h1, h2, p, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo: #0A3871;
+}
+
+/* Definição da fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(25, 147, 218);
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color:var(--cor-fundo);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo da área principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    min-height: 100vh;
+}
+
+/* Estilo da textarea de entrada e botões */
+textarea{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilo dos botões */
+button {
+    display: flex;
+    width: 328px;
+    padding: 24px;
+    margin: 10px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 24px;
+    background-color:var(--cor-fundo);
+    color: white;
+    
+}
+
+button:hover {
+    background-color: #0a5abb;
+}
+
+/* Estilo das áreas de texto */
+textarea {
+    width: 100%;
+    resize: none; /* Evita redimensionamento da textarea */
+}
+
+/* Estilo do contêiner dos botões */
+.button-container {
+    display: flex;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color:var(--cor-fundo);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.rodape{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+}
+.sigam-me{
+    font-size: 1rem;
+}
+
+footer a {
+    margin-bottom: 10px; /* Ajuste a quantidade conforme necessário */
+    padding: 5px;
+}
+
+footer .redes {
+    margin-top: 10px; 
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .textoHeader {
+        font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    main {
+        margin: 10px; /* Ajuste as margens conforme necessário */
+    }
+
+    textarea, button {
+        width: 100%; /* Faz com que textarea e botões ocupem toda a largura */
+    }
+}
+
+
+
+
+
+

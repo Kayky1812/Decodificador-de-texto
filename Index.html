@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="textoHeader">Decodificador de texto</h1>
+    </header>
+
+    <main>
+        <textarea id="textoDigitado" rows="10" cols="50" placeholder="Digite aqui o texto que deseja Criptografar"></textarea>
+        
+        
+
+        <div class="button-container">
+            <button id="btnCripto" onclick="criptografar()">Criptografar</button>
+            <button id="btnDescripto" onclick="descriptografar()">Descriptografar</button>
+            <button id="btnCopiar" onclick="copiarTexto()">Copiar</button>
+            <button id="btnLimpar" onclick="limparTexto()">Limpar</button>
+        </div>
+       
+
+
+        <textarea id="resulTexto" cols="50" rows="10" placeholder="Resultado:"></textarea>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por Kayky Santos</p> 
+        <p class="sigam-me">Sigam-me em minhas Redes Sociais:</p>
+        <div class="redes">
+            <a href="https://github.com/Kayky1812">
+                <img src="img/Logo Github.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/kayky-santos-2613a11b9/">
+                <img src="img/Logo linkedin.png">
+            </a>
+            
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
